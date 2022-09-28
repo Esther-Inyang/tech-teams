@@ -51,9 +51,11 @@ function Members() {
     <main>
       <article className="main-article">
         <div className="container">
-          <div className="img-container">
-            <FaCheckDouble className="icon-double" />
-            <img src={image} alt="" className="img" />
+          <div className="img-container-a">
+            <div className="img-container">
+              <FaCheckDouble className="icon-double" />
+              <img src={image} alt="" className="img" />
+            </div>
           </div>
 
           <div className="member-info">

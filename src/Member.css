@@ -189,12 +189,28 @@
     overflow: hidden;
   }
 
-  .img-container {
+  .icon-double {
+    color: rgb(240, 255, 250);
+    background-color: rgb(4, 199, 134);
+  }
+
+  .img-container-a {
+    width: 100%;
     height: inherit;
+    display: grid;
+    place-items: center;
+  }
+
+  .img-container {
+    width: 80%;
+    border-radius: 30%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    background-color: rgb(213, 250, 237);
   }
 
   .img {
     height: 100%;
+    border-radius: 100%;
     object-fit: cover;
   }
 
@@ -202,6 +218,7 @@
     padding: 40px;
     display: grid;
     place-items: center;
+    background-color: rgb(240, 255, 250);
   }
 
   .name-div {
@@ -214,9 +231,13 @@
     position: absolute;
   }
 
+  .job {
+    background-color: rgb(250, 249, 249);
+  }
+
   .text {
     text-align: right;
-    font-size: 20px;
+    font-size: 25px;
   }
 
   .icons-container-b {
@@ -225,5 +246,6 @@
 
   .random-btn {
     margin-top: 30px;
+    background-color: rgb(250, 249, 249);
   }
 }
