@@ -1,5 +1,5 @@
 import img1 from "./images/img1.jpg";
-import img2 from "./images/img2.jpg";
+import img2 from "./images/img2.jpeg";
 import img3 from "./images/img3.jpg";
 import img4 from "./images/img4.jpg";
 import img5 from "./images/img5.jpg";
@@ -30,15 +30,17 @@ const members = [
   },
   {
     id: 4,
-    name: "Chris Peterson",
-    job: "Company Director",
+    name: "Lancelo Potabol",
+    job: "Fullstack Developer",
     image: img4,
     text: "More products meaings twee health goth +1. Bicycle rights tumeric chartreuse before they sold out chambray pop-up. Shaman humblebrag pickled coloring book salvia hoodie, cold-pressed four dollar toast everyday carry",
   },
   {
     id: 5,
-    name: "Grace Amora",
-    job: "Frontend Dev Team",
+    // name: "Grace Amora",
+    // job: "Frontend Dev Team",
+    name: "Chris Peterson",
+    job: "Company Director",
     image: img5,
     text: "The Porta put a bird on it humblebrag, marfa pok pok heirloom fashion axe cray stumptown venmo actually seitan. VHS farm-to-table schlitz, edison bulb pop-up 3 wolf moon tote bag street art shabby chic. ",
   },
